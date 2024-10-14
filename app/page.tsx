@@ -1,7 +1,11 @@
+import Hero from "@/components/Hero";
+
 export default function Home() {
   return (
-    <div className="flex justify-center items-center text-2xl font-bold font-[family-name:var(--font-geist-sans)]">
-      This is the personal portfolio of Muhammad Umar
-    </div>
+    <main className="relative flex flex-col justify-center items-center overflow-hidden mx-auto sm:px-10">
+      <div className="max-w-7xl w-full bg-black-100">
+        <Hero/>
+      </div>
+    </main>
   );
 }
