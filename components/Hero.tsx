@@ -25,8 +25,8 @@ const Hero = () => {
 
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
 
-        <div className='w-full flex-col lg:flex-row flex justify-center my-20 z-10 border-2 border-red-500' >
-          <div className='w-[50%] flex flex-col items-center justify-center border-2 border-green-500' >
+        <div className='w-full flex-col lg:flex-row flex justify-center my-20 z-10' >
+          <div className='w-[50%] flex flex-col items-center justify-center' >
             < TextGenerateEffect
               className='uppercase tracking-widest text-center text-4xl md:text-5xl lg:text-6xl'
               words="Hello, I'm Muhammad Umar" 
@@ -35,7 +35,7 @@ const Hero = () => {
               I&apos;m a full-stack developer
             </p>
           </div>
-          <div className='w-[50%] border-2 border-pink-500' >
+          <div className='w-[50%]' >
               Image Here
           </div>
         </div>
